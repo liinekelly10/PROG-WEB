@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Formulário</h1>
+    <form action="http://127.0.0.1:5500/Atividades/Form.html?" method="get">
+        <label for="nome">Nome:</label>
+        <input name="nome" type="text" id="nome">
+        <br>
+        <label for="email">Email:</label>
+        <input name="email" type="email" id="email">
+        <br>
+        <label for="password">Senha:</label>
+        <input name="senha" type="password" id="senha">
+        <br>
+
+        <h2>Escolha o Sabor:</h2>
+        <input name="sabor" value="Cal" type="radio" id="sabor_Calabresa">
+        <label for="sabor_Calabresa"> Calabresa - R$ 25,00 </label>
+        <br>
+        <input name="sabor" value="Mus" type="radio" id="sabor_Mussarela">
+        <label for="sabor_Mussarela"> Mussarela - R$ 18,00 </label>
+        <br>
+        <input name="sabor" value="Port" type="radio" id="sabor_Portuguesa">
+        <label for="sabor_Portuguesa"> Portuguesa - R$ 28,90 </label>
+        <br>
+
+
+       <h2>Escolha o Adicional:</h2>
+        <input type="checkbox" name="adicional1" value="Milho"  id="adicional1">
+        <label for="adicional1"> Milho - R$ 2,00 </label>
+        <br>
+        <input type="checkbox" name="adicional2" value="Queijo"  id="adicional2">
+        <label for="adicional2"> Queijo - R$ 3,00 </label>
+        <br>
+        <input type="checkbox" name="adicional3" value="Milho"  id="adicional3">
+        <label for="adicional3"> Azeitona - R$ 2,50 </label>
+        <br>
+        <input type="checkbox" name="Borda_Catupiry" value="Borda_Catupiry"  id="adicional4">
+        <label for="adicional4"> Borda Catupiry - R$ 15,00 </label>
+        <br>
+        <input type="checkbox" name="Borda_Cheddar" value="Borda_Cheddar"  id="adicional5">
+        <label for="adicional5"> Borda Cheddar - R$ 15,90 </label>
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+
+    </form>
+    
+</body>
+</html>
