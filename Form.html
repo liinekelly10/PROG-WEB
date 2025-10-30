@@ -15,7 +15,7 @@
         <label for="email">Email:</label>
         <input name="email" type="email" id="email">
         <br>
-        <label for="password">Senha:</label>
+        <label for="senha">Senha:</label>
         <input name="senha" type="password" id="senha">
         <br>
 
@@ -41,12 +41,52 @@
         <input type="checkbox" name="adicional3" value="Milho"  id="adicional3">
         <label for="adicional3"> Azeitona - R$ 2,50 </label>
         <br>
-        <input type="checkbox" name="Borda_Catupiry" value="Borda_Catupiry"  id="adicional4">
+        <input type="checkbox" name="adicional4" value="Borda_Catupiry"  id="adicional4">
         <label for="adicional4"> Borda Catupiry - R$ 15,00 </label>
         <br>
-        <input type="checkbox" name="Borda_Cheddar" value="Borda_Cheddar"  id="adicional5">
+        <input type="checkbox" name="adicional5" value="Borda_Cheddar"  id="adicional5">
         <label for="adicional5"> Borda Cheddar - R$ 15,90 </label>
         <br>
+        <br>
+
+        <h2>Observação do Pedido:</h2>
+        <label for="">Observação:</label>
+        <br>
+        <textarea cols="40" rows="4" maxlength="100" placeholder="Digite aqui" name="observacao"></textarea>
+        <br>
+        <br>
+        
+        <h2>Escolha o Tamanho da pizza:</h2>
+        <label for="tipo"> Escolha o Tamanho da pizza:</label>
+        <br>
+        <select name="select" id="tipo" multiple size="2">
+            <option value="-">Selecione o Tamanho</option>
+            <option value="G">Grande (8 pedaços)</option>
+            <option value="M">Média (6 pedaços)</option>
+            <option value="P">Pequena (4 pedaços)</option>
+        </select>
+
+        <br>
+        <h2>Escolha o Refrigerante:</h2>
+        <label for="refri"> Escolha o Refrigerante:</label>
+        <input list="Refrigerantes_lista">
+        <br>
+        <br>
+        <datalist id="Refrigerantes_lista">
+            <option value="Coca-cola Zero">Refrigerante zero açúcar</option>
+            <option value="Guaraná">São Gerardo</option>
+            <option value="Fanta">Sabor Uva</option>
+        </datalist>
+
+        <h2>Escolha uma cor:</h2>
+        <input type="color" name="cor">
+
+        <h2>Escolha uma data:</h2>
+        <input type="date" name="datanasc">
+
+        <h2>Escolha um número:</h2>
+        <input type="number" name="quantidade" min="1" max="10">
+
         <input type="submit" value="Enviar">
         <br>
 
