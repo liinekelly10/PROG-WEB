@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="color: blue; font-size: 50px; margin-left: 25%;">Cadastro - Venda de Carro</h1>
+    <p>Texto qualquer de descrição da empresa</p>
+    <p id="estilo_p2">Texto qualquer de descrição da empresa</p>
+
+
+    <form action="http://127.0.0.1:5500/Atividades/venda_carro.html" method="get">
+    <label for="nome" widght="px">Nome:</label>
+    <br>
+    <input name="nome" type="text" id="nome">
+    <br>
+
+    <label for="telefone">Telefone:</label>
+    <br>
+    <input name="telefone" type="telefone" id="telefone">
+    
+    <label for="email">Email:</label>
+    <input name="email" type="email" id="email">
+    <br>
+
+    <label for="ano_fabric">Ano Fabricação:</label>
+    <br>
+    <input name="ano_fabric" type="number" id="ano_fabric">
+    <label for="data_compra">Data Compra:</label>
+    <input name="data_compra" type="date" id="date">
+    <br>
+
+    <h4>Cor:</h4>
+    <input type="color" name="cor">
+
+    <label for="ano_fabric">Número:</label>
+    <input name="ano_fabric" type="number" id="ano_fabric">
+
+    <br>
+    <br>
+    <label for="chassi">Chassi:</label>
+    <br>
+    <input name="chassi" type="text" id="chassi">
+    
+    <label for="Placa">Placa:</label>
+    <input name="Placa" type="text" id="Placa">
+    <br>
+
+    <br> 
+    <label for="km">Quilometragem:</label>
+    <input name="km" type="number" id="km">
+    <br> 
+
+    <h4>Combustível:</h4>
+    <input type="checkbox" name="gas" value="gas"  id="1">
+    <label for="1"> Gasolina </label>
+
+    <input type="checkbox" name="et" value="et"  id="2">
+    <label for="2"> Etanol </label>
+
+    <input type="checkbox" name="di" value="di"  id="3">
+    <label for="3"> Diesel </label>
+
+    <h4>Classificação:</h4>
+    <input name="tipo" value="auto" type="radio" id="automático">
+    <label for="auto"> Automático </label>
+
+    <input name="tipo" value="manu" type="radio" id="manual">
+    <label for="manu"> Manual </label>
+
+    <input name="tipo" value="semi" type="radio" id="semiautomático">
+    <label for="semi"> Semiautomático </label>
+    <br>
+    <br>
+
+    <label for="">Mensagem:</label>
+    <br>
+    <textarea cols="40" rows="4" maxlength="100" placeholder="Digite aqui uma observação" name="observacao"></textarea>
+    <br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Enviar">
+    <br>
+
+    </form>
+    
+</body>
+</html>
