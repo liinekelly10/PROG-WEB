@@ -1,0 +1,43 @@
+body{
+    border-width: 6px;
+    border-style: ridge;
+    border-color: black;
+    height: 700px;
+}
+.div_vermelha{
+    border-width: 5px;
+    border-style: ridge;
+    border-color: red;
+}
+
+.div_verde{
+    border-width: 5px;
+    border-style: ridge;
+    border-color: rgb(9, 53, 35);
+}
+
+.div_azul{
+    border-width: 5px;
+    border-style: ridge;
+    border-color: blue;
+}
+
+.card{
+    background-color: rgb(79, 233, 79);
+    border-width: 4px;
+    border-style: dashed;
+    border-radius: 16px;
+    border-color: red;
+    display: flex;
+}
+
+.card p{
+    margin-left: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
