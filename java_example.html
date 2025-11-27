@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 27/11</title>
+    <script>
+        var exemploVariavel,exemploVariavel2;
+        exemploVariavel = "Emilly";
+        document.write("<h1>"+exemploVariavel+"</h1>");
+        document.write(exemploVariavel2);
+
+        const CordoMar = "Azul";
+        console.log(CordoMar);
+
+        console.log("Teste")
+
+        const frutas = ["Laranja", "Banana", "Maçã"]
+        console.log(frutas)
+
+        //alert("Alô, Alô Marciano");
+        //alert("Aqui quem fala é da terra!");
+
+        //var altura=0, peso=0;
+        //altura = prompt("Digite sua altura:", "Ex: 1,60");
+        //console.log(altura);
+
+        //peso = prompt("Digite seu peso:", "Ex: 76");
+        //console.log(peso);
+        // imc = peso / altura^2
+        //var imc = peso / (altura*altura);
+        //alert("Seu IMC É"+imc);
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        //var idade = prompt("Qual é a sua idade?");
+        //if (idade >=18){
+        //    alert("Você é maior de idade, já pode ser preso");
+        //}else{
+        //    alert("Você é menor de idade");
+        //}
+        //continua = confirm("Deseja continuar?");
+
+        var num1 = prompt("Digite um número:");
+        var num2 = prompt("Digite outro número:");
+        var resposta = prompt("Digite (1) para Soma ou (2) para Subtração");
+
+
+        if (resposta == 1){
+            var soma = parseFloat(num1) + parseFloat(num2);
+            alert("A soma desses dois números é: "+soma);
+        }
+
+        else if (resposta == 2){
+            var subtração = parseFloat(num1) - parseFloat(num2);
+            alert("A subtração desses dois números é: "+subtração);
+        }else{
+            alert("Operação inválida!");
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
